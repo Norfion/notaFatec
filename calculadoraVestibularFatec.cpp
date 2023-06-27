@@ -12,7 +12,7 @@ int main() {
        << endl;
 
   cout << "A Prova Objetiva (múltipla escolha) do vestibular da \nFatec possui "
-          "questões 54 questões ao todo. \nDestas, 10 questões tem peso 2 e 44 "
+          "54 questões ao todo. \nDestas, 10 questões tem peso 2 e 44 "
           "questões peso 1"
        << endl;
   cout << endl;
