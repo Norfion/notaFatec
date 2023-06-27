@@ -74,14 +74,19 @@ int main() {
     notaFinalMin *= (1.0 + acrescimo1 + acrescimo2);
     notaFinalMax *= (1.0 + acrescimo1 + acrescimo2);
 
-    cout << "Sua nota final está entre " << notaFinalMin << " e "
-         << notaFinalMax << endl;
+    cout << "Sua nota final está entre " << notaFinalMin << "pts e "
+         << notaFinalMax << "pts" << endl;
   } else {
     notaFinal = (8.0 * notaObjetiva + 2.0 * redacao) / 10.0;
 
     notaFinalMin *= (1.0 + acrescimo1 + acrescimo2);
     notaFinalMax *= (1.0 + acrescimo1 + acrescimo2);
 
-    cout << "Sua nota final é: " << notaFinal << endl;
+    cout << "Sua nota final é " << notaFinal << "pts" << endl;
   }
+
+  cout << endl;
+  cout << "OBS:. A nota máxima (supondo que acertou todas\nas questões e tirou "
+          "nota "
+          "máxima na redação) é 100pts";
 }
